@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    font-family:Verdana, Geneva, sans-serif;
+}
+body {
+    background-color: beige;
+}
+
+header {
+    height: 50px;
+    background-color: goldenrod;
+    border-bottom: 10px solid salmon;
+    margin:0px;
+}
+
+header ul {
+list-style-type: none;
+text-align: right;
+position: relative;
+top: 17px;
+bottom: 5px;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 5px;
+    padding:5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.content {
+    text-align: center;
+    position: relative;
+
+}
+.image {
+    background-color: teal;
+    padding:25px;
+    border: 20px double salmon;
+}
+
+p {
+    padding-top: 5px;
+}
+.infobox {
+    height: 200px;
+    background-color: bisque;
+    border-top:2px solid darkslategray;
+    margin:0px;
+}
+h3 {
+    text-align: center;
+    padding-top:10px;
+}
+form {
+    text-align: center;
+}
+#contact-btn {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 5%;
+}
+
+footer {
+     height: 50px;
+    background-color: goldenrod;
+    text-align: center;
+    }
