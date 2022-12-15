@@ -8,9 +8,12 @@ body {
 
 header {
     height: 50px;
+    width: 100%;
     background-color: goldenrod;
     border-bottom: 10px solid salmon;
     margin:0px;
+    position: fixed;
+    z-index: 2;
 }
 
 header ul {
@@ -33,7 +36,9 @@ a {
 }
 .content {
     text-align: center;
+    padding:75px;
     position: relative;
+    
 
 }
 .image {
@@ -46,7 +51,7 @@ p {
     padding-top: 5px;
 }
 .infobox {
-    height: 200px;
+    height: 400px;
     background-color: bisque;
     border-top:2px solid darkslategray;
     margin:0px;
@@ -65,6 +70,11 @@ form {
     border-radius: 5%;
 }
 
+dog {
+    background-color: aliceblue;
+    height:200px;
+    width:400px;
+}
 footer {
      height: 50px;
     background-color: goldenrod;
